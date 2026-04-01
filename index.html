@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gowtham Sai Vignesh - Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    header p  { font-size: 1rem; color: #bdc3c7; margin-bottom: 5px; }
+    .status {
+      display: inline-block;
+      margin-top: 15px;
+      background: #27ae60;
+      color: white;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    /* NAV */
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    nav a:hover { background: #2c3e50; }
+
+    /* MAIN LAYOUT */
+    main {
+      max-width: 860px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    /* SECTION */
+    section {
+      background: white;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      border-left: 4px solid #27ae60;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+    p { font-size: 0.95rem; line-height: 1.8; color: #555; }
+
+    /* EDUCATION */
+    .edu-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+    .edu-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .edu-item h3 { font-size: 1rem; color: #2c3e50; margin-bottom: 4px; }
+    .edu-item span { font-size: 0.85rem; color: #27ae60; font-weight: bold; }
+    .edu-item p { font-size: 0.88rem; color: #777; margin-top: 4px; }
+
+    /* SKILLS */
+    .skill-group { margin-bottom: 16px; }
+    .skill-group h3 { font-size: 0.9rem; color: #555; margin-bottom: 8px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      background: #eaf4fb;
+      color: #2980b9;
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      border: 1px solid #aed6f1;
+    }
+    .tag.green { background: #eafaf1; color: #27ae60; border-color: #a9dfbf; }
+    .tag.gray  { background: #f4f6f7; color: #7f8c8d; border-color: #ccc; }
+
+    /* PROJECTS */
+    .project {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .project:last-child { margin-bottom: 0; }
+    .project h3 { font-size: 1rem; color: #2c3e50; margin-bottom: 6px; }
+    .project p  { font-size: 0.88rem; color: #666; margin-bottom: 10px; }
+    .project-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .project-tag {
+      background: #f0f0f0;
+      color: #555;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+    }
+
+    /* CONTACT */
+    .contact-list { list-style: none; }
+    .contact-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.93rem;
+      color: #555;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .contact-list li:last-child { border-bottom: none; }
+    .contact-list a { color: #2980b9; text-decoration: none; }
+    .contact-list a:hover { text-decoration: underline; }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.83rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Gowtham Sai Vignesh Chalapaka</h1>
+  <p>Aspiring Full Stack Developer</p>
+  <p>MCA Graduate · AKNU University</p>
+  <span class="status">✅ Open to Work</span>
+</header>
+
+<!-- NAV -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I am <strong>Gowtham Sai Vignesh Chalapaka</strong>, a fresh MCA graduate from AKNU University.
+      I completed my BCA from Sanjeev College of Arts and Sciences and my MCA from AKNU University.
+      I am currently learning full stack web development by building real projects.
+      I am a fresher with zero work experience but I am eager to learn, grow, and contribute to a team.
+      I am actively looking for my first job or internship opportunity.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="edu-item">
+      <h3>Master of Computer Applications (MCA)</h3>
+      <span>AKNU University &nbsp;|&nbsp; 2023 – 2025</span>
+      <p>Studied advanced programming, databases, algorithms, and machine learning. Built a fire detection system using deep learning as my final year project.</p>
+    </div>
+
+    <div class="edu-item">
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <span>Sanjeev College of Arts and Sciences &nbsp;|&nbsp; 2020 – 2023</span>
+      <p>Learned the basics of programming, web development, data structures, and computer networks. Studied C, Java, Python, HTML, CSS, and MySQL.</p>
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-group">
+      <h3>Frontend</h3>
+      <div class="tags">
+        <span class="tag green">HTML5</span>
+        <span class="tag green">CSS3</span>
+        <span class="tag green">JavaScript</span>
+        <span class="tag green">Bootstrap</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Backend &amp; Database</h3>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Java</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">PHP</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>AI / Machine Learning</h3>
+      <div class="tags">
+        <span class="tag">TensorFlow</span>
+        <span class="tag">CNN</span>
+        <span class="tag">OpenCV</span>
+        <span class="tag">Keras</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Currently Learning</h3>
+      <div class="tags">
+        <span class="tag gray">React</span>
+        <span class="tag gray">Node.js</span>
+        <span class="tag gray">MongoDB</span>
+        <span class="tag gray">Git</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>1. Online Shopping Website</h3>
+      <p>
+        A full stack e-commerce website where users can browse products, add items to cart, register an account, log in, and place orders.
+        Built using HTML, CSS, JavaScript for the frontend and PHP with MySQL for the backend.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JavaScript</span>
+        <span class="project-tag">PHP</span>
+        <span class="project-tag">MySQL</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>2. Fire Detection using Deep CNN &nbsp;(Final Year Project)</h3>
+      <p>
+        A deep learning project that uses a Convolutional Neural Network (CNN) to detect fire in images.
+        The model was trained on fire and non-fire image datasets and can classify images accurately.
+        Useful for early fire warning systems and safety applications.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">TensorFlow</span>
+        <span class="project-tag">Keras</span>
+        <span class="project-tag">CNN</span>
+        <span class="project-tag">OpenCV</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>📧 Email: <a href="mailto:gowthamvignesh@email.com">gowthamvignesh@email.com</a></li>
+      <li>💻 GitHub: <a href="#">github.com/gowthamvignesh</a></li>
+      <li>💼 LinkedIn: <a href="#">linkedin.com/in/gowtham-sai-vignesh</a></li>
+      <li>📍 Location: Andhra Pradesh, India</li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Gowtham Sai Vignesh Chalapaka &nbsp;·&nbsp; Made with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+</body>
+</html>
